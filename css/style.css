@@ -7,3 +7,23 @@ p.vert{
     color: green;
    
 }
+.vt{
+    color:green;
+}
+.bord{
+    border:1px solid green;
+}
+a{
+    color: red;
+    text-decoration: none;
+
+}
+a:hover{
+    color: green;
+    text-decoration:underline;
+
+}
+
+a:visited{
+    color:gray;
+}
