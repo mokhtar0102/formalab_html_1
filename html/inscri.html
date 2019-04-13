@@ -1,0 +1,70 @@
+<! DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8"/>
+                <title> Inscri</title>
+                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <link rel="stylesheet" href="../css/style.css">
+                
+        
+            </head>
+        
+            <body>
+                    <header>
+                            <img src="../IMG/pepsi.png" height="90 " width="90"><br/>
+                        <hr>
+                        <a href="index.html" target="_blank"><button type="button" class="btn btn-danger">home</button>
+                        </a></a></br></br>
+                        <a href="connecter.html" target="_blank"><button type="button" class="btn btn-primary">connecter</button>
+                        </a></a></br>
+                    <hr>
+                        </header>
+   
+                        <form nom="inscri" method="GET" action="../php/inscri.php">
+
+                            <table >
+    
+                <thead >
+                <h1>Inscription</h1>
+                </thead>
+                
+                <tbody>
+                        <tr> <td>Nom</td> <td><input type="text" name="nom"> </td></tr>
+                        <tr> <td>Prenom</td> <td><input type="text" name="prenom"> </td></tr>
+                        <tr> <td>Tel</td> <td><input type="text"name="tel"> </td></tr>
+                        <tr> <td>Sex</td> <td><input type="radio" name="sex" value="male" />Male<input type="radio" name="sex" value="Female" />Female</td></tr>
+                        <tr> <td>Email</td> <td><input type="email" name="email"> </td></tr>
+                        <tr> <td>date naissance</td> <td><input type="date" name="date"> </td></tr>
+                        <tr><td>Nationalite</td> <td> 
+                                <select name="nationalite">           
+                                     <option value ="cc"> Nationalite</option>
+                     
+                                 <option value ="tunisien"> tunisien</option>
+                                  <option value ="turc"> turc</option>
+                                  <option value ="africain"> africain</option>
+                                  <option value ="italien"> italien</option>
+                         
+                             </select>
+                         </td></tr>
+                         <tr><td>interet</td><td> <input type="checkbox" value="photographie" name="photographie"/>photographie <input type="checkbox" value="music" name="music"/>music<input type="checkbox" value="jeux" name="jeux" />jeux video<input type="checkbox" value="voyage" name="voyage" />voyage <input type="checkbox" value="sport" name="sport" />sport </td></tr>
+    
+                         <tr> <td>Mote de passe</td> <td><input type="password" name="mp"> </td></tr>
+    
+                         <tr> <td>Confirmer mote de passe</td> <td><input type="password" name="mp"> </td></tr>
+    
+                </tbody>
+                
+                        <tr> <td><input type="submit"/></td> <td><input type="reset"/> </td></tr>
+    
+    
+        
+                      
+                        </table>
+    
+        </form>
+  
+    
+    </body>
+    </html>
+    
+    

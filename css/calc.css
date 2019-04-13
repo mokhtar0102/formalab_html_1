@@ -1,0 +1,76 @@
+
+                *{margin: 0px;
+                padding: 0px;
+            
+                }
+                .btn{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 25px;
+                    margin: 2px;
+                    cursor: pointer;
+                    background-color: rgb(117, 177, 255);
+                    border: none;
+                    border-radius: 20%;
+                    cursor: pointer; color: white;
+                    
+                
+                }
+                .btn2{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 25px;
+                    margin: 2px;
+                    cursor: pointer;
+                    background-color:  rgb(117, 177, 255);
+                    border: none;
+                    color: white;
+                    
+                   
+                    
+                
+                }
+                .btn1{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 25px;
+                    margin: 2px;
+                    cursor: pointer;
+                    background-color: rgb(0, 153, 0);
+                    border: none; color: white;
+                    
+                
+                }
+                .btnc{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 25px;
+                    margin: 2px;
+                    cursor: pointer;
+                    background-color: rgb(117, 177, 255);
+                    border: none; color: red;
+                    border-radius: 20%;
+                    
+                
+                }
+                .textview{
+                    width: 206px;
+                    margin: 5px;
+                    font-size: 25px;
+                    padding: 5px;
+                    border:none;
+                 
+                }
+                .main{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%) translateY(-50%);
+
+                }
+                .bg{
+                    background: linear-gradient(to right,rgb(105, 95, 247) ,rgb(243, 180, 180));
+                    height: 1000px;
+                    }
+   
+                

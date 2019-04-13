@@ -1,29 +1,25 @@
-
-.bleu{
-    color: rgb(0, 11, 165);
+button{
+    margin: 10px,20px,20px,20px;
    
 }
-p.vert{
-    color: green;
-   
-}
-.vt{
-    color:green;
-}
-.bord{
-    border:1px solid green;
-}
-a{
-    color: red;
-    text-decoration: none;
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: linear-gradient(to right,rgb(105, 95, 247) ,rgb(243, 180, 180));
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  / text-align: center;
+    box-align: center;
 
 }
-a:hover{
-    color: green;
-    text-decoration:underline;
-
+table{
+    align-items: center;
 }
-
-a:visited{
-    color:gray;
+img{
+border-radius: 20%;
+}
+input{
+    border: none;
 }
